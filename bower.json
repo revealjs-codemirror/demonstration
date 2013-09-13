@@ -16,5 +16,8 @@
   "ignore": [
     "**/.*",
     "bower_components"
-  ]
+  ],
+  "dependencies": {
+    "reveal.js": "~2.5.0"
+  }
 }

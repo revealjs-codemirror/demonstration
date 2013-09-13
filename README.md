@@ -1,4 +1,4 @@
-demonstration
+Demonstration
 =============
 
-A repository to describe the reveal.js-codemirror plugin
+A repository to describe the reveal.js-codemirror plugin.

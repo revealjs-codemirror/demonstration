@@ -1,0 +1,20 @@
+{
+  "name": "demonstration",
+  "version": "0.0.0",
+  "homepage": "https://github.com/revealjs-codemirror/demonstration",
+  "authors": [
+    "Daan van Berkel <daan.v.berkel.1980@gmail.com>"
+  ],
+  "description": "demonstration of the revealjs-codemirror plugin",
+  "main": "index.html",
+  "keywords": [
+    "codemirror",
+    "revealjs"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "bower_components"
+  ]
+}

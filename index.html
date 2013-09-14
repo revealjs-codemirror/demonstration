@@ -5,6 +5,8 @@
     <title>revealjs-codemirror plugin demonstration</title>
     <link rel="stylesheet" href="bower_components/reveal.js/css/theme/default.css"/>
     <link rel="stylesheet" href="bower_components/reveal.js/css/reveal.min.css"/>
+    <link rel="stylesheet" href="bower_components/codemirror/lib/codemirror.css"/>
+    <link rel="stylesheet" href="bower_components/codemirror/theme/solarized.css"/>
   </head>
   <body>
     <div class="reveal">
@@ -15,7 +17,7 @@
 	</section>
 	<section>
 	  <h4>This Code is in a Text Area!</h4>
-	  <textarea class="code" mode="javascript" runnable="true">// codemirror demo party!
+	  <textarea id="code" class="code" mode="javascript" runnable="true">// codemirror demo party!
 var greeter = function(name) {
   return "Why hello there " + name;
 }
@@ -44,6 +46,8 @@ console.log(greeter("Joe"));
       </div>
     </div>
     <script src="bower_components/reveal.js/js/reveal.min.js"></script>
+    <script src="bower_components/codemirror/lib/codemirror.js"></script>
+    <script src="bower_components/codemirror/mode/javascript/javascript.js"></script>
     <script src="js/initialize.js"></script>
   </body>
 </html>

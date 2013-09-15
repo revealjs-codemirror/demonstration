@@ -3,8 +3,5 @@
 
     Reveal.initialize();
 
-    var textarea = document.getElementById('code');
-    CodeMirror.fromTextArea(textarea, {
-	mode: 'javascript'
-    });
-})(Reveal);
+    revealjscodemirror.codemirrorify();
+})(Reveal, revealjscodemirror);
